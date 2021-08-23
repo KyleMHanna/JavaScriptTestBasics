@@ -27,6 +27,7 @@ function daysPosition(day, offset) {
  */
 
  function golfScore(score, par) {
+  
 
  }
  

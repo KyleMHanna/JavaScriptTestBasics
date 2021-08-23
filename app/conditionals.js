@@ -67,6 +67,7 @@ let myCar = {
 
 function isStopped(car) {
 
+    
 
 }
 
@@ -77,7 +78,11 @@ let dish = {
     isDirty: true
 }
 
+
 function washDish(dish) {
-    
+if (dish.yourdish== true && dish.isDirty== true){
+    return true
+}
+return false
 
 }
