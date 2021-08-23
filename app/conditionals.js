@@ -41,6 +41,11 @@ return "F"
 
 function timeOfDayGreeting(hour) {
     // you code below
+if (hour <= 4) return "Good Night"
+
+else if (hour <= 11) return "Good Morning"
+else if (hour <= 17) return "Good Afternoon"
+else if (hour <= 21) return "Good evening"
 
 }
 
